@@ -129,6 +129,10 @@ CREATE TABLE phone_number (
 );
 
 
+CREATE TABLE employee_rule (
+    id SERIAL PRIMARY KEY,
+    max_planned_course_per_employee INT NOT NULL
+);
 
 
 
@@ -159,4 +163,5 @@ CREATE TRIGGER check_teacher_courses
 BEFORE INSERT ON planned_activity_employee
 FOR EACH ROW
 EXECUTE FUNCTION check_teacher_under_four(); 
+
 
