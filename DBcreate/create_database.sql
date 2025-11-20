@@ -143,7 +143,7 @@ max_courses INT;
 current_courses INT; 
 BEGIN 
 SELECT max_planned_course_per_employee INTO max_courses
-FROM employee_rules; 
+FROM employee_rule; 
 
 
 SELECT COUNT(DISTINCT pa.course_instance_id) INTO current_courses
@@ -163,5 +163,6 @@ CREATE TRIGGER check_teacher_courses
 BEFORE INSERT ON planned_activity_employee
 FOR EACH ROW
 EXECUTE FUNCTION check_teacher_under_four(); 
+
 
 
