@@ -79,6 +79,102 @@ VALUES
   ('LECTURE',1.5),
   ('Tutorial',2);
 
+
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (1,38,1),
+  (2,25,2),
+  (3,48,3),
+  (4,39,4),
+  (5,43,1),
+  (6,43,2),
+  (7,40,3),
+  (8,40,4),
+  (9,34,1),
+  (10,35,2);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (11,38,3),
+  (12,41,4),
+  (13,42,1),
+  (14,47,2),
+  (15,46,3),
+  (16,27,4),
+  (17,24,1),
+  (18,34,2),
+  (19,33,3),
+  (20,21,4);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (21,26,1),
+  (22,47,2),
+  (23,31,3),
+  (24,41,4),
+  (25,38,1),
+  (26,47,2),
+  (27,22,3),
+  (28,23,4),
+  (29,25,1),
+  (30,39,2);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (31,31,3),
+  (32,35,4),
+  (33,21,1),
+  (34,26,2),
+  (35,42,3),
+  (36,22,4),
+  (37,40,1),
+  (38,33,2),
+  (39,22,3),
+  (40,29,4);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (41,22,1),
+  (42,25,2),
+  (43,22,3),
+  (44,22,4),
+  (45,41,1),
+  (46,39,2),
+  (47,44,3),
+  (48,26,4),
+  (49,38,1),
+  (50,32,2);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (1,38,2),
+  (2,25,3),
+  (3,48,1),
+  (4,39,2),
+  (5,43,2),
+  (6,43,3),
+  (7,40,4),
+  (8,40,1),
+  (9,34,2),
+  (10,35,1);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (11,38,1),
+  (12,41,2),
+  (13,42,2),
+  (14,47,3),
+  (15,46,1),
+  (16,27,1),
+  (17,24,2),
+  (18,34,4),
+  (19,33,4),
+  (20,21,3);
+
+
+
+
+
+
+
+
+
+
+
 INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
 VALUES
   (1,1,1),
@@ -359,4 +455,5 @@ VALUES
   (52,33,4),
 
   (53,21,3);
+
 
