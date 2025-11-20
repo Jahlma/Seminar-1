@@ -246,7 +246,7 @@ VALUES
 INSERT INTO employee (employment_id,skill_set,salary,supervisor,person_id,department_id,job_title_id,version)
 VALUES
   ('7487',' communication',150929,'MR GREEN',1,1,1,'1'),
-  ('2257',' teamwork',305321,'MR GREEN',2,2,2),
+  ('2257',' teamwork',305321,'MR GREEN',2,2,2,'1'),
   ('8443',' co problem-solving',149032,'MR SVENSSON',3,3,3,'1'),
   ('3431',' communication',135344,'MR SVENSSON',4,4,1,'1'),
   ('2987',' teamwork',355925,'KAJSA',5,5,2),
@@ -367,6 +367,7 @@ VALUES
   (18,68,18),
   (19,69,19),
   (20,70,20);
+
 
 
 
