@@ -197,7 +197,7 @@ VALUES
   ('1918-08-15','Flynn','Steele','Ap #467-5733 Eu Ave'),
   ('1937-08-13','Axel','Norman','Ap #214-4278 Sapien, Rd.');
 
-INSERT INTO person (job_title)
+INSERT INTO job_title (job_title)
 VALUES
   ('TA'),
   ('Professor'),
@@ -367,6 +367,7 @@ VALUES
   (18,68,18),
   (19,69,19),
   (20,70,20);
+
 
 
 
