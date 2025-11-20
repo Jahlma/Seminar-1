@@ -165,101 +165,6 @@ VALUES
   (19,33,4),
   (20,21,3);
 
-
-
-
-
-
-
-
-
-
-
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (1,1,1),
-  (2,2,2),
-  (3,3,3),
-  (4,4,4),
-  (5,5,5),
-  (6,6,6),
-  (7,7,7),
-  (8,8,8),
-  (9,9,9),
-  (10,10,10);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (11,11,11),
-  (12,12,12),
-  (13,13,13),
-  (14,14,14),
-  (15,15,15),
-  (16,16,16),
-  (17,17,17),
-  (18,18,18),
-  (19,19,19),
-  (20,20,20);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (21,21,21),
-  (22,22,22),
-  (23,23,23),
-  (24,24,24),
-  (25,25,25),
-  (26,26,1),
-  (27,27,2),
-  (28,28,3),
-  (29,29,4),
-  (30,30,5);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (31,31,6),
-  (32,32,7),
-  (33,33,8),
-  (34,34,9),
-  (35,35,10),
-  (36,36,11),
-  (37,37,12),
-  (38,38,13),
-  (39,39,14),
-  (40,40,15);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (41,41,16),
-  (42,42,17),
-  (43,43,18),
-  (44,44,19),
-  (45,45,20),
-  (46,46,21),
-  (47,47,22),
-  (48,48,23),
-  (49,49,24),
-  (50,50,25);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (1,51,1),
-  (2,52,2),
-  (3,53,3),
-  (4,54,4),
-  (5,55,5),
-  (6,56,6),
-  (7,57,7),
-  (8,58,8),
-  (9,59,9),
-  (10,60,10);
-INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
-VALUES
-  (11,61,11),
-  (12,62,12),
-  (13,63,13),
-  (14,64,14),
-  (15,65,15),
-  (16,66,16),
-  (17,67,17),
-  (18,68,18),
-  (19,69,19),
-  (20,70,20);
-
 INSERT INTO person (personal_number,first_name,last_name,adress)
 VALUES
   ('1933-01-11','Justina','O''connor','4301 Libero. Ave'),
@@ -370,90 +275,101 @@ VALUES
   ('5164',' co problem-solving',156154,'MR SVENSSON',24,4,3,'1'),
   ('3648',' communication',350373,'KAJSA',25,5,1,'1');
 
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (34,38,1),
-  (35,25,2),
-  (36,48,3),
-  (37,39,4),
-  (38,43,1),
-  (39,43,2),
-  (40,40,3),
-  (41,40,4),
-  (42,34,1),
-  (43,35,2);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (44,38,3),
-  (45,41,4),
-  (46,42,1),
-  (47,47,2),
-  (48,46,3),
-  (49,27,4),
-  (50,24,1),
-  (51,34,2),
-  (52,33,3),
-  (53,21,4);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (54,26,1),
-  (55,47,2),
-  (56,31,3),
-  (57,41,4),
-  (58,38,1),
-  (59,47,2),
-  (60,22,3),
-  (61,23,4),
-  (62,25,1),
-  (63,39,2);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (64,31,3),
-  (65,35,4),
-  (66,21,1),
-  (67,26,2),
-  (68,42,3),
-  (69,22,4),
-  (70,40,1),
-  (71,33,2),
-  (72,22,3),
-  (73,29,4);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (74,22,1),
-  (75,25,2),
-  (76,22,3),
-  (77,22,4),
-  (78,41,1),
-  (79,39,2),
-  (80,44,3),
-  (81,26,4),
-  (82,38,1),
-  (83,32,2);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (34,38,2),
-  (35,25,3),
-  (36,48,1),
-  (37,39,2),
-  (38,43,2),
-  (39,43,3),
-  (40,40,4),
-  (41,40,1),
-  (42,34,2),
-  (43,35,1);
-INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
-VALUES
-  (44,38,1),
-  (45,41,2),
-  (46,42,2),
-  (47,47,3),
-  (48,46,1),
-  (49,27,1),
-  (50,24,2),
-  (51,34,4),
-  (52,33,4),
 
-  (53,21,3);
+
+
+
+
+
+
+
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (1,1,1),
+  (2,2,2),
+  (3,3,3),
+  (4,4,4),
+  (5,5,5),
+  (6,6,6),
+  (7,7,7),
+  (8,8,8),
+  (9,9,9),
+  (10,10,10);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (11,11,11),
+  (12,12,12),
+  (13,13,13),
+  (14,14,14),
+  (15,15,15),
+  (16,16,16),
+  (17,17,17),
+  (18,18,18),
+  (19,19,19),
+  (20,20,20);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (21,21,21),
+  (22,22,22),
+  (23,23,23),
+  (24,24,24),
+  (25,25,25),
+  (26,26,1),
+  (27,27,2),
+  (28,28,3),
+  (29,29,4),
+  (30,30,5);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (31,31,6),
+  (32,32,7),
+  (33,33,8),
+  (34,34,9),
+  (35,35,10),
+  (36,36,11),
+  (37,37,12),
+  (38,38,13),
+  (39,39,14),
+  (40,40,15);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (41,41,16),
+  (42,42,17),
+  (43,43,18),
+  (44,44,19),
+  (45,45,20),
+  (46,46,21),
+  (47,47,22),
+  (48,48,23),
+  (49,49,24),
+  (50,50,25);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (1,51,1),
+  (2,52,2),
+  (3,53,3),
+  (4,54,4),
+  (5,55,5),
+  (6,56,6),
+  (7,57,7),
+  (8,58,8),
+  (9,59,9),
+  (10,60,10);
+INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
+VALUES
+  (11,61,11),
+  (12,62,12),
+  (13,63,13),
+  (14,64,14),
+  (15,65,15),
+  (16,66,16),
+  (17,67,17),
+  (18,68,18),
+  (19,69,19),
+  (20,70,20);
+
+
+
+
 
 
