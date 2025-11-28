@@ -167,6 +167,42 @@ VALUES
   (18,34,4),
   (19,33,4),
   (20,21,3);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (21,26,4),
+  (22,47,4),
+  (23,31,3),
+  (24,41,3),
+  (25,38,3),
+  (26,47,3),
+  (27,22,4),
+  (28,23,4),
+  (29,25,4),
+  (30,39,4);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (21,26,2),
+  (22,47,2),
+  (23,31,2),
+  (24,41,2),
+  (25,38,2),
+  (26,47,2),
+  (27,22,1),
+  (28,22,2),
+  (29,25,4),
+  (30,39,3);
+INSERT INTO planned_activity (course_instance_id,planned_hours,teaching_activity_id)
+VALUES
+  (21,26,2),
+  (22,47,1),
+  (23,31,1),
+  (24,41,1),
+  (25,38,1),
+  (26,47,1),
+  (27,22,1),
+  (28,15,2),
+  (29,25,4),
+  (30,10,1);
 
 INSERT INTO person (personal_number,first_name,last_name,adress)
 VALUES
@@ -370,6 +406,7 @@ VALUES
   (18,68,18),
   (19,69,19),
   (20,70,20);
+
 
 
 
