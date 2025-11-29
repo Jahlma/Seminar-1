@@ -373,7 +373,7 @@ VALUES
 INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
 VALUES
   (41,41,16),
-  (42,42,17),
+  (42,42,24),
   (43,43,18),
   (44,44,19),
   (45,45,20),
@@ -402,10 +402,11 @@ VALUES
   (14,64,14),
   (15,65,15),
   (16,66,16),
-  (17,67,17),
+  (17,67,1),
   (18,68,18),
   (19,69,19),
   (20,70,20);
+
 
 
 
