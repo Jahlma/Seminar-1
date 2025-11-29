@@ -40,7 +40,7 @@ VALUES
   ('48325',63,'P1','2019',4);
 INSERT INTO course_instance (instance_id,num_students,study_period,study_year,course_layout_id)
 VALUES
-  ('67697',76,'P2','2014',1),
+  ('67697',76,'P1','2014',1),
   ('66115',54,'P1','2015',2),
   ('22395',43,'P1','2015',3),
   ('28728',77,'P3','2025',4),
@@ -348,7 +348,7 @@ VALUES
   (20,20,20);
 INSERT INTO planned_activity_employee (course_instance_id,planned_activity_id,employee_id)
 VALUES
-  (21,21,21),
+  (21,21,20),
   (22,22,22),
   (23,23,23),
   (24,24,17),
@@ -406,6 +406,7 @@ VALUES
   (18,68,18),
   (19,69,19),
   (20,70,20);
+
 
 
 
