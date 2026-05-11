@@ -100,7 +100,7 @@ CREATE TABLE employee(
 );
 ALTER TABLE department 
 ADD CONSTRAINT fk_department_manager
-FOREIGN KEY (manager_id) 
+FOREIGN KEY (departement_manager_id) 
 REFERENCES employee(id) 
 ON DELETE SET NULL;
 
