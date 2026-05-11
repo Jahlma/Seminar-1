@@ -71,7 +71,7 @@ CREATE TABLE employee(
     employment_id VARCHAR(100) UNIQUE NOT NULL,
     skill_set VARCHAR(200) NOT NULL,
     salary INT NOT NULL,
-    supervisor_id INT, 
+    supervisor_id INT REFERENCES employee(id), 
     person_id INT,
     department_id INT,
     job_title_id INT,
@@ -92,12 +92,12 @@ CREATE TABLE employee(
         REFERENCES department(id)
         ON DELETE RESTRICT,
 
+   
     CONSTRAINT fk_supervisor
         FOREIGN KEY (supervisor_id)
         REFERENCES employee(id)
         ON DELETE SET NULL
-); 
-
+);
 ALTER TABLE department 
 ADD CONSTRAINT fk_department_manager
 FOREIGN KEY (manager_id) 
