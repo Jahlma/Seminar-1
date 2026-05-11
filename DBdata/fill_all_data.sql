@@ -1,15 +1,11 @@
 
 INSERT INTO course_layout (course_code, course_name, min_students, max_students, hp, version) VALUES
-('IV-1351','DATA STORAGE',33,95,7.5,'1'),
-('IX-1200','ECONOMICS',33,94,15.0,'1'),
-('IX-1500','COMPUTER HARDWARE',31,94,15.0,'1'),
-('PK-1200','MATH',33,90,15.0,'1'),
-('IK-1300','MACHINE',32,95,15.0,'1'),
-('LS-6780','PROGRAMING ',34,90,15.0,'1'),
-('MK-6070','WEB BUILDING',33,90,7.5,'1'),
-('DH-2642','ALGEBRA',30,94,7.5,'1'),
-('IS-1300','CYBYER SECURITY',32,94,7.5,'1'),
-('MM-5000','GAME MAKING',32,95,7.5,'1');
+('IV-1351','DATA STORAGE',33,95,7.5,'1'), ('IX-1200','ECONOMICS',33,94,15.0,'1'),
+('IX-1500','COMPUTER HARDWARE',31,94,15.0,'1'), ('PK-1200','MATH',33,90,15.0,'1'),
+('IK-1300','MACHINE',32,95,15.0,'1'), ('LS-6780','PROGRAMING ',34,90,15.0,'1'),
+('MK-6070','WEB BUILDING',33,90,7.5,'1'), ('DH-2642','ALGEBRA',30,94,7.5,'1'),
+('IS-1300','CYBYER SECURITY',32,94,7.5,'1'), ('MM-5000','GAME MAKING',32,95,7.5,'1');
+
 
 INSERT INTO course_instance (instance_id, num_students, study_period, study_year, course_layout_id) VALUES
 ('38575',54,'P4','2025',1), ('56158',78,'P3','2013',2), ('77563',68,'P3','2016',3), ('84787',72,'P1','2019',4),
@@ -27,7 +23,7 @@ INSERT INTO course_instance (instance_id, num_students, study_period, study_year
 ('96448',51,'P1','2015',1), ('78256',73,'P4','2013',2);
 
 
-INSERT INTO teaching_activity (activity_name, factor) VALUES 
+INSERT INTO teaching_activity (activity_name, factor) VALUES
 ('LAB',2.3), ('SEMINAR',2.5), ('LECTURE',1.5), ('Tutorial',2.0);
 
 
@@ -54,6 +50,7 @@ INSERT INTO person (personal_number, first_name, last_name, adress) VALUES
 ('1979-09-13','Kevyn','Ward','952-8999 Dolor Av.'), ('1918-08-15','Flynn','Steele','Ap #467-5733 Eu Ave'),
 ('1937-08-13','Axel','Norman','Ap #214-4278 Sapien, Rd.');
 
+
 INSERT INTO phone_number (person_id, phone_number) VALUES
 (1,'0702316843'), (2,'0704749814'), (3,'0705492813'), (4,'0709569426'), (5,'0708734688'), (6,'0704563378'), (7,'0708623364'), (8,'0707813389'), (9,'0707433738'), (10,'0705243385'), (11,'0709625557'), (12,'0705897932'), (13,'0706447271'), (14,'0705354329'), (15,'0708743419'), (16,'0704627274'), (17,'0709854687'), (18,'0705516265'), (19,'0704798567'), (20,'0706283453'), (21,'0704543786'), (22,'0707632431'), (23,'0701847532'), (24,'0704856758'), (25,'0703674565');
 
@@ -61,7 +58,7 @@ INSERT INTO phone_number (person_id, phone_number) VALUES
 INSERT INTO job_title (job_title) VALUES ('TA'), ('Professor'), ('Ass. Professor');
 
 
-INSERT INTO department (department_name, department_manager_id) VALUES 
+INSERT INTO department (department_name, department_manager_id) VALUES
 ('STOCKHOLM', NULL), ('GÖTEBORG', NULL), ('MALMÖ', NULL), ('UPPSALA', NULL), ('SÖDERTÄLJE', NULL);
 
 
@@ -75,6 +72,7 @@ INSERT INTO employee (employment_id, skill_set, salary, supervisor_id, person_id
 ('5143',' communication',256987, 1, 19, 4, 1, '1'), ('2431',' teamwork',172915, 1, 20, 5, 2, '1'), ('7922',' co problem-solving',151158, 1, 21, 1, 3, '1'),
 ('2934',' communication',119096, 1, 22, 2, 1, '1'), ('4725',' teamwork',429714, 1, 23, 3, 2, '1'), ('5164',' co problem-solving',156154, 1, 24, 4, 3, '1'),
 ('3648',' communication',350373, 1, 25, 5, 1, '1');
+
 
 UPDATE department SET department_manager_id = 1 WHERE department_name = 'STOCKHOLM';
 UPDATE department SET department_manager_id = 2 WHERE department_name = 'GÖTEBORG';
@@ -92,9 +90,6 @@ INSERT INTO planned_activity_employee (course_instance_id, planned_activity_id, 
 (21,21,20), (22,22,22), (23,23,23), (24,24,17), (25,25,25), (26,26,17), (27,27,2), (28,28,3), (29,29,4), (30,30,5),
 (31,31,6), (32,32,7), (33,33,8), (34,34,9), (35,35,10), (36,36,11), (37,37,12), (38,38,13), (39,39,14), (40,40,15),
 (41,41,16), (42,42,24), (43,43,18), (44,44,19), (45,45,20), (46,46,21), (47,47,22), (48,48,23), (49,49,24), (50,50,25);
-
-
-
 
 
 
