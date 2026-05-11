@@ -50,7 +50,7 @@ CREATE TABLE planned_activity(
 CREATE TABLE department(
     id SERIAL PRIMARY KEY,
     department_name VARCHAR(200) UNIQUE NOT NULL,
-    departement_manager_id INT 
+    department_manager_id INT 
 ); 
 
 CREATE TABLE person(
@@ -100,7 +100,7 @@ CREATE TABLE employee(
 );
 ALTER TABLE department 
 ADD CONSTRAINT fk_department_manager
-FOREIGN KEY (manager_id) 
+FOREIGN KEY (department_manager_id) 
 REFERENCES employee(id) 
 ON DELETE SET NULL;
 
